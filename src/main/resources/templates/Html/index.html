@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/assets/css/style.css}">
+    <title>Quản Lý Sinh Viên</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Quản Lý Sinh Viên</h1>
+
+        <div class="Bang">
+            <table>
+                <div class="chucnang">
+                    <span class="masv">Mã Sinh Viên</span> 
+                    <span class="hoten">Họ Tên</span> 
+                    <span class="diachi">Địa Chỉ</span> 
+                    <span class="ngaysinh">Ngày Sinh</span>
+                    <span class="gioitinh">Giới Tính</span> 
+                </div>
+
+             <div class="nhap">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+            </thead>
+           </div> 
+        </table>
+        </div>
+        <button onclick="themSinhVien()">Thêm Sinh Viên</button>
+    </div>
+</body>
+</html>
